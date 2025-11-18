@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construction Company</title>
+ <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+</head>
+<body>
+      <header class="top-bar">
+    <div class="contact-info">
+      <span>📞 (+123) 1234-567-8901</span>
+      <span>✉️ info@domain.com</span>
+      <span>🕒 Mon-Sat 8:00 - 17:30</span>
+    </div>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#"><i class="fab fa-google-plus-g"></i></a>
+    </div>
+    <div class="menu-icon" onclick="toggleTopInfo()">
+      <i class="fas fa-bars"></i>
+    </div>
+  </header>
+
+  <div class="top-content" id="topContent">
+    <div class="contact-info-mobile">
+      <span>📞 (+123) 1234-567-8901</span>
+      <span>✉️ info@domain.com</span>
+      <span>🕒 Mon-Sat 8:00 - 17:30</span>
+    </div>
+    <div class="social-icons-mobile">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#"><i class="fab fa-google-plus-g"></i></a>
+    </div>
+  </div>
+
+  <script>
+    function toggleTopInfo() {
+      const topContent = document.getElementById('topContent');
+      topContent.classList.toggle('show');
+    }
+  </script>
+
+
+  <nav class="navbar">
+    <div class="logo">
+      <img src="logo.png" alt="Logo" />
+    </div>
+
+    <div class="menu-toggle" id="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </div>
+
+    <div class="navi" id="navi">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="services.html">Services</a></li>
+
+        <li class="dropdown">
+          <a href="blog.html">Blog</a>
+          <ul class="dropdown-menu">
+            <li><a href="blog.html">Blog </a></li>
+            <li><a href="single-blog.html">Blog Details</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="#">Pages</a>
+          <ul class="dropdown-menu">
+            <li><a href="element.html">Elements</a></li>
+            <li><a href="project-detail.html">Project Details</a></li>
+            <li><a href="service-detail.html">Services Details</a></li>
+          </ul>
+        </li>
+
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <button class="contact-btn">CONTACT NOW</button>
+    </div>
+  </nav>
+    <script>
+    const menuToggle = document.getElementById("menu-toggle");
+    const navi = document.getElementById("navi");
+
+    menuToggle.addEventListener("click", () => {
+      navi.classList.toggle("active");
+    });
+  </script>
+
+    <div class="hero-section">
+        <div class="hero-content">
+            <p class="subtitle">HAND CAR WASH AND DETAILING SERVICE</p>
+            <h1>ADVANCED</h1>
+<div class="body-bg">
+  <div class="construction-container">
+    <div class="text-outline">CONSTRUCTION</div>
+    <div class="text-fill">CONSTRUCTION</div>
+  </div>
+</div>
+            <p class="services-text">OUR SERVICES</p>
+        </div>
+    </div>
+
+
+<section class="services-section">
+  <div class="container">
+    <h2 class="services-title">Our Services</h2>
+    <div class="services-container">
+      
+      <div class="service-card">
+        <img src="servicess3.png" alt="Engineering techniques and implementation" class="service-image">
+        <div class="service-content">
+          <h3 class="service-heading">Engineering techniques & implementation</h3>
+          <a href="service-detail.html" class="read-more">Read More <span class="plus-icon">+</span></a>
+        </div>
+        <div class="card-divider"></div>
+      </div>
+      
+      <div class="service-card">
+        <img src="servicess2.png" alt="Engineering techniques and implementation" class="service-image">
+        <div class="service-content">
+          <h3 class="service-heading">Engineering techniques & implementation</h3>
+          <a href="service-detail.html" class="read-more">Read More <span class="plus-icon">+</span></a>
+        </div>
+        <div class="card-divider"></div>
+      </div>
+      
+      <div class="service-card">
+        <img src="servicess1.png" alt="Engineering techniques and implementation" class="service-image">
+        <div class="service-content">
+          <h3 class="service-heading">Engineering techniques & implementation</h3>
+          <a href="service-detail.html" class="read-more">Read More <span class="plus-icon">+</span></a>
+        </div>
+        <div class="card-divider"></div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<section class="about-section">
+  <div class="about-container">
+    <div class="about-content">
+      <h2 class="about-title">Who We Are</h2>
+      <p class="about-text bold-text">Mollit anim laborum duis au dolor in voluptate velit ess cillum dolore eu lore dsu quality mollit anim laborumuis au dolor in voluptate velit cillu.</p>
+      <p class="about-text">Mollit anim laborum.Dcuis aute iruxvfg dhijolohr in re voluptate velit esscillumlore eu quife nrulla parihatur. Excoghcepteur sfwsignjnt occa cupidatat non aute iruxvfg dhijolupadeserunt molliternith incidiidnt ubc5tu layjobore moritlit anim.</p>
+      <a href="#" class="read-more-btn">Read More</a>
+    </div>
+    <div class="about-image-container">
+      <img src="safe_in.png" alt="A construction worker" class="about-image">
+      <div class="year-badge">
+        <span class="year">1994</span>
+        <span class="since">Since</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="projects-section">
+  <div class="projects-header">
+    <h2 class="projects-title">Our Projects</h2>
+    <div class="filter-menu">
+      <span class="active" data-filter="all">Show All</span>
+      <span data-filter="interior">Interior</span>
+      <span data-filter="recent">Recent</span>
+      <span data-filter="big-building">Big Building</span>
+      <span data-filter="park">Park</span>
+    </div>
+  </div>
+  
+  <div class="projects-grid">
+    
+    <div class="project-card" data-category="big-building">
+      <img src="project1.png" alt="Project 1" class="project-image">
+      <div class="project-info">
+        <h3 class="project-name">Floride Chemicals Factory</h3>
+        <p class="project-category">Big Building</p>
+      </div>
+    </div>
+    
+    <div class="project-card" data-category="interior">
+      <img src="project2.png" alt="Project 2" class="project-image">
+      <div class="project-info">
+        <h3 class="project-name">Modern Office Interior</h3>
+        <p class="project-category">Interior</p>
+      </div>
+    </div>
+    
+    <div class="project-card" data-category="recent">
+      <img src="project3.png" alt="Project 3" class="project-image">
+      <div class="project-info">
+        <h3 class="project-name">Downtown Skyscraper</h3>
+        <p class="project-category">Recent</p>
+      </div>
+    </div>
+    
+    <div class="project-card" data-category="park">
+      <img src="project4.png" alt="Project 4" class="project-image">
+      <div class="project-info">
+        <h3 class="project-name">Urban Public Park</h3>
+        <p class="project-category">Park</p>
+      </div>
+    </div>
+    
+    <div class="project-card" data-category="interior">
+      <img src="project5.png" alt="Project 5" class="project-image">
+      <div class="project-info">
+        <h3 class="project-name">Luxury Apartment Interior</h3>
+        <p class="project-category">Interior</p>
+      </div>
+    </div>
+    
+    <div class="project-card" data-category="big-building">
+      <img src="project6.png" alt="Project 6" class="project-image">
+      <div class="project-info">
+        <h3 class="project-name">New Commercial Building</h3>
+        <p class="project-category">Big Building</p>
+      </div>
+    </div>
+    
+  </div>
+</section>
+<script>document.addEventListener('DOMContentLoaded', () => {
+  const filterButtons = document.querySelectorAll('.filter-menu span');
+  const projectCards = document.querySelectorAll('.project-card');
+
+  filterButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      filterButtons.forEach(btn => btn.classList.remove('active'));
+      button.classList.add('active');
+
+      const filterValue = button.getAttribute('data-filter');
+
+      projectCards.forEach(card => {
+        if (filterValue === 'all') {
+          card.style.display = 'block';
+        } else {
+          if (card.getAttribute('data-category') === filterValue) {
+            card.style.display = 'block';
+          } else {
+            card.style.display = 'none';
+          }
+        }
+      });
+    });
+  });
+});</script>
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="hero-sec">
+  <h1>LATS TALK WITH US</h1>
+<p>Mollit anim laborum.Dvcuis aute iruxvfg dhjkolohr in re voluptate velit esscillumlore eu quife nrulla parihatur. Excghcepteur sfwsignjnt occa cupidatat non aute iruxvfg dhjinulpadeserunt mollitemnth incididbnt ut;o5tu layjobore mofllit anim.</p>
+  <button class="btn">READ MORE</button>
+</section>
+
+<section class="stats-section">
+  <div class="stats-sec">
+    <div class="stat-number">34</div>
+  <div class="stat-box">
+    <div class="stat-category">MACHINERY</div>
+    <div class="stat-label">Tools</div>
+  </div></div>
+
+  <div class="stats-sec">
+      <div class="stat-number">76</div>
+
+  <div class="stat-box">
+    
+    <div class="stat-category">MACHINERY</div>
+    <div class="stat-label">Tools</div>
+  </div>
+  </div>
+    <div class="stats-sec">
+    <div class="stat-number">08</div>
+
+  <div class="stat-box">
+    <div class="stat-category">MACHINERY</div>
+    <div class="stat-label">Tools</div>
+  </div></div>
+</section>
+
+
+
+<section class="team-section">
+  <div class="containr">
+    <h2 class="title1">Our Team</h2>
+    <div class="team-container">
+      
+      <div class="team-member-card">
+        <img src="team1.png" alt="Team Member 1" class="member-image">
+        <div class="member-info">
+          <p class="member-role">UX Designer</p>
+          <h3 class="member-name">Ethan Welch</h3>
+        </div>
+      </div>
+      
+      <div class="team-member-card">
+        <img src="team3.png" alt="Team Member 2" class="member-image">
+        <div class="member-info">
+          <p class="member-role">UX Designer</p>
+          <h3 class="member-name">Ethan Welch</h3>
+        </div>
+      </div>
+      
+      <div class="team-member-card">
+        <img src="team1.png" alt="Team Member 3" class="member-image">
+        <div class="member-info">
+          <p class="member-role">UX Designer</p>
+          <h3 class="member-name">Ethan Welch</h3>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+<section class="testimonial-section">
+  <div class="testimonial-container">
+    <h3 class="section-subtitle" style=" width: calc(100% - 50px); margin-left: calc(15% - 100px);font-size: calc(1rem + 2vw);top: calc(10px + 2%);">Testimonial</h3>
+
+    <div class="testimonial-card">
+      <span class="quote-icon">“</span>
+      <p class="testimonial-text">Mollit anim laborum. Dcuis aute iruxfg dhijolohr in re voluptate velit esscillumlore eu quife nrulla parihatur. Excoghcepteur sfwsignjnt occa cupidatat non aute iruxvfg dhijolupadeserunt molliternith incidiidnt ubc5tu layjobore moritlit anim. Mollit anim laborum.Dcuis aute iruxvfg dhijolohr in re voluptate velit esscillumlore eu quife nrulla parihatur. Excoghcepteur sfwsignjyn.</p>
+      <div class="testimonial-author">
+        <span class="author-name">Jessya Inn</span>
+        <span class="author-title">Co Founder</span>
+      </div>
+    </div>
+
+    <div class="testimonial-card">
+      <span class="quote-icon">“</span>
+      <p class="testimonial-text">
+Mollit anim laborum. Dcuis aute iruxvfg dhijolohr in re voluptate velit esscillumlore eu quife nrulla parihatur. Excoghcepteur sfwsignjnt occa cupidatat non aute iruxvfg dhijolupadeserunt molliternith incidiidnt ubc5tu layjobore moritlit anim. Mollit anim laborum.Dcuis aute iruxvfg dhijolohr in re voluptate velit esscillumlore eu quife nrulla parihatur. Excoghcepteur sfwsignjyn.</p>
+      <div class="testimonial-author">
+        <span class="author-name">Jane Doe</span>
+        <span class="author-title">CEO</span>
+      </div>
+    </div>
+
+    <div class="testimonial-card">
+      <span class="quote-icon">“</span>
+      <p class="testimonial-text">
+Mollit anim laborum. Dcuis aute iruxvfg dhijolohr in re voluptate velit esscillumlore eu quife nrulla parihatur. Excoghcepteur sfwsignjnt occa cupidatat non aute iruxvfg dhijolupadeserunt molliternith incidiidnt ubc5tu layjobore moritlit anim. Mollit anim laborum.Dcuis aute iruxvfg dhijolohr in re voluptate velit esscillumlore eu quife nrulla parihatur. Excoghcepteur sfwsignjyn.</p>
+      <div class="testimonial-author">
+        <span class="author-name">John Smith</span>
+        <span class="author-title">Developer</span>
+      </div>
+    </div>
+
+    <div class="testimonial-navigation">
+      <button class="nav-button prev">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      <button class="nav-button next">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+    </div>
+  </div>
+</section>
+<script>document.addEventListener('DOMContentLoaded', function () {
+    const testimonials = document.querySelectorAll('.testimonial-card');
+    const prevButton = document.querySelector('.prev');
+    const nextButton = document.querySelector('.next');
+    let currentIndex = 0;
+
+    function showTestimonial(index) {
+        testimonials.forEach(testimonial => {
+            testimonial.style.display = 'none';
+        });
+
+        if (testimonials[index]) {
+            testimonials[index].style.display = 'block';
+        }
+    }
+
+    function showNextTestimonial() {
+        currentIndex++;
+        if (currentIndex >= testimonials.length) {
+            currentIndex = 0; 
+        }
+        showTestimonial(currentIndex);
+    }
+
+    function showPrevTestimonial() {
+        currentIndex--;
+        if (currentIndex < 0) {
+            currentIndex = testimonials.length - 1; 
+        }
+        showTestimonial(currentIndex);
+    }
+
+    if (nextButton) {
+        nextButton.addEventListener('click', showNextTestimonial);
+    }
+
+    if (prevButton) {
+        prevButton.addEventListener('click', showPrevTestimonial);
+    }
+
+    showTestimonial(currentIndex);
+});</script>
+
+
+ <div class="news-container">
+        <h1 class="news-heading">LATEST NEWS</h1>
+        <div class="articles">
+            <div class="article">
+                <div class="article-image-container">
+                    <img src="david_1.png" alt="A construction worker wearing a hard hat" class="article-image">
+                    <div class="date-badge">
+                        <div class="day">24</div>
+                        <div class="status">Now</div>
+                    </div>
+                </div>
+                <div class="article-content">
+                    <div class="article-meta">| Porperties</div>
+                    <h2 class="article-title">Footprints in Time is perfect House in Kurashiki</h2>
+                    <a href="service-detail.html" class="read-more">READ MORE ▸</a>
+                </div>
+            </div>
+
+            <div class="article">
+                <div class="article-image-container">
+                    <img src="david_2.png" alt="Construction workers shaking hands" class="article-image">
+                    <div class="date-badge">
+                        <div class="day">24</div>
+                        <div class="status">Now</div>
+                    </div>
+                </div>
+                <div class="article-content">
+                    <div class="article-meta">| Porperties</div>
+                    <h2 class="article-title">Footprints in Time is perfect House in Kurashiki</h2>
+                    <a href="service-detail.html" class="read-more">READ MORE ▸</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<a href="#" id="scroll-to-top-button">
+    <span class="arrow-up"></span>
+</a>
+
+<script>
+const scrollToTopBtn = document.getElementById("scroll-to-top-button");
+
+window.addEventListener("scroll", () => {
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        scrollToTopBtn.classList.add("show");
+    } else {
+        scrollToTopBtn.classList.remove("show");
+    }
+});
+
+scrollToTopBtn.addEventListener("click", (e) => {
+    e.preventDefault();
+    
+    const duration = 1500; 
+    const startingY = window.pageYOffset;
+    const diff = startingY;
+    let start;
+
+    window.requestAnimationFrame(function step(timestamp) {
+        if (!start) start = timestamp;
+        
+        const time = timestamp - start;
+        const percent = Math.min(time / duration, 1);
+        
+        window.scrollTo(0, startingY - diff * percent);
+
+        if (time < duration) {
+            window.requestAnimationFrame(step);
+        }
+    });
+});</script>
+    <footer class="site-footer">
+              <img src="arrow_testimonial.png" alt="" class="footer-img">
+
+  <div class="continer">
+    <div class="footer-columns">
+      <div class="footer-column">
+        <div class="logo-and-description">
+          <img src="logo2_footer.png" alt="Construction Logo">
+          <h3 class="company-name">Construction</h3>
+          <p class="company-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore.
+          </p>
+        </div>
+      </div>
+      <div class="footer-column">
+        <h4 class="column-title">Quick Links</h4>
+        <ul class="quick-links-list">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4 class="column-title">Contact</h4>
+        <address class="contact-info">
+          <p>188 West 21th Street, Suite 721 New York, NY 10010</p>
+          <p>Phone: +95 (0)123 456 789</p>
+          <p>Cell: +95 (0)123 456 789</p>
+        </address>
+      </div>
+            <div class="footer-column">
+
+        <div class="newsletter-signup">
+          <input type="email" placeholder="Email Address">
+          <button type="submit">Sign Up</button>
+        </div>
+        <div class="map-image">
+          <img src="map-footer.png" alt="World Map with locations">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="copyright-bar">
+  <p class="copyright">
+       
+            Copyright &copy; 2025 All rights reserved.
+   
+    </p>
+  </div>
+</footer>
+</body>
+</html>

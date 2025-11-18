@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service</title>
+ <link rel="stylesheet" href="service-style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+</head>
+<body>
+      <header class="top-bar">
+    <div class="contact-info">
+      <span>📞 (+123) 1234-567-8901</span>
+      <span>✉️ info@domain.com</span>
+      <span>🕒 Mon-Sat 8:00 - 17:30</span>
+    </div>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#"><i class="fab fa-google-plus-g"></i></a>
+    </div>
+    <div class="menu-icon" onclick="toggleTopInfo()">
+      <i class="fas fa-bars"></i>
+    </div>
+  </header>
+
+  <div class="top-content" id="topContent">
+    <div class="contact-info-mobile">
+      <span>📞 (+123) 1234-567-8901</span>
+      <span>✉️ info@domain.com</span>
+      <span>🕒 Mon-Sat 8:00 - 17:30</span>
+    </div>
+    <div class="social-icons-mobile">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#"><i class="fab fa-google-plus-g"></i></a>
+    </div>
+  </div>
+
+  <script>
+    function toggleTopInfo() {
+      const topContent = document.getElementById('topContent');
+      topContent.classList.toggle('show');
+    }
+  </script>
+
+
+  <nav class="navbar">
+    <div class="logo">
+      <img src="logo.png" alt="Logo" />
+    </div>
+
+    <div class="menu-toggle" id="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </div>
+
+     <div class="navi" id="navi">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="services.html">Services</a></li>
+
+        <li class="dropdown">
+          <a href="blog.html">Blog</a>
+          <ul class="dropdown-menu">
+            <li><a href="blog.html">Blog </a></li>
+            <li><a href="single-blog.html">Blog Details</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="#">Pages</a>
+          <ul class="dropdown-menu">
+            <li><a href="element.html">Elements</a></li>
+            <li><a href="project-detail.html">Project Details</a></li>
+            <li><a href="service-detail.html">Services Details</a></li>
+          </ul>
+        </li>
+
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="contact-btn">CONTACT NOW</button>
+    </div>
+  </nav>
+    <script>
+    const menuToggle = document.getElementById("menu-toggle");
+    const navi = document.getElementById("navi");
+
+    menuToggle.addEventListener("click", () => {
+      navi.classList.toggle("active");
+    });
+  </script>
+
+ <div class="hero-section">
+  <div class="hero-content">
+    <h1>Our Services</h1>
+    <div class="breadcrumbs">
+      <div class="line"></div>
+      <a href="index.html" >HOME</a> / <span>PRODUCT</span>
+    </div>
+  </div>
+</div>
+
+
+<section class="services-section">
+  <div class="container">
+    <h2 class="services-title">Our Services</h2>
+    <div class="services-container">
+      
+      <div class="service-card">
+        <img src="servicess3.png" alt="Engineering techniques and implementation" class="service-image">
+        <div class="service-content">
+          <h3 class="service-heading">Engineering techniques & implementation</h3>
+          <a href="#" class="read-more">Read More <span class="plus-icon">+</span></a>
+        </div>
+        <div class="card-divider"></div>
+      </div>
+      
+      <div class="service-card">
+        <img src="servicess2.png" alt="Engineering techniques and implementation" class="service-image">
+        <div class="service-content">
+          <h3 class="service-heading">Engineering techniques & implementation</h3>
+          <a href="#" class="read-more">Read More <span class="plus-icon">+</span></a>
+        </div>
+        <div class="card-divider"></div>
+      </div>
+      
+      <div class="service-card">
+        <img src="servicess1.png" alt="Engineering techniques and implementation" class="service-image">
+        <div class="service-content">
+          <h3 class="service-heading">Engineering techniques & implementation</h3>
+          <a href="#" class="read-more">Read More <span class="plus-icon">+</span></a>
+        </div>
+        <div class="card-divider"></div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<section class="services-section">
+  <div class="container">
+    <div class="services-container">
+      
+      <div class="service-card">
+        <img src="servicess3.png" alt="Engineering techniques and implementation" class="service-image">
+        <div class="service-content">
+          <h3 class="service-heading">Engineering techniques & implementation</h3>
+          <a href="#" class="read-more">Read More <span class="plus-icon">+</span></a>
+        </div>
+        <div class="card-divider"></div>
+      </div>
+      
+      <div class="service-card">
+        <img src="servicess2.png" alt="Engineering techniques and implementation" class="service-image">
+        <div class="service-content">
+          <h3 class="service-heading">Engineering techniques & implementation</h3>
+          <a href="#" class="read-more">Read More <span class="plus-icon">+</span></a>
+        </div>
+        <div class="card-divider"></div>
+      </div>
+      
+      <div class="service-card">
+        <img src="servicess1.png" alt="Engineering techniques and implementation" class="service-image">
+        <div class="service-content">
+          <h3 class="service-heading">Engineering techniques & implementation</h3>
+          <a href="#" class="read-more">Read More <span class="plus-icon">+</span></a>
+        </div>
+        <div class="card-divider"></div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<a href="#" id="scroll-to-top-button">
+    <span class="arrow-up"></span>
+</a>
+
+<script>
+const scrollToTopBtn = document.getElementById("scroll-to-top-button");
+
+window.addEventListener("scroll", () => {
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        scrollToTopBtn.classList.add("show");
+    } else {
+        scrollToTopBtn.classList.remove("show");
+    }
+});
+
+scrollToTopBtn.addEventListener("click", (e) => {
+    e.preventDefault();
+    
+    const duration = 1500; 
+    const startingY = window.pageYOffset;
+    const diff = startingY;
+    let start;
+
+    window.requestAnimationFrame(function step(timestamp) {
+        if (!start) start = timestamp;
+        
+        const time = timestamp - start;
+        const percent = Math.min(time / duration, 1);
+        
+        window.scrollTo(0, startingY - diff * percent);
+
+        if (time < duration) {
+            window.requestAnimationFrame(step);
+        }
+    });
+});</script>
+    <footer class="site-footer">
+        <img src="arrow_testimonial.png" alt="" class="footer-img">
+  <div class="continer">
+    <div class="footer-columns">
+      <div class="footer-column">
+        <div class="logo-and-description">
+          <img src="logo2_footer.png" alt="Construction Logo">
+          <h3 class="company-name">Construction</h3>
+          <p class="company-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore.
+          </p>
+        </div>
+      </div>
+      <div class="footer-column">
+        <h4 class="column-title">Quick Links</h4>
+        <ul class="quick-links-list">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4 class="column-title">Contact</h4>
+        <address class="contact-info">
+          <p>188 West 21th Street, Suite 721 New York, NY 10010</p>
+          <p>Phone: +95 (0)123 456 789</p>
+          <p>Cell: +95 (0)123 456 789</p>
+        </address>
+      </div>
+            <div class="footer-column">
+
+        <div class="newsletter-signup">
+          <input type="email" placeholder="Email Address">
+          <button type="submit">Sign Up</button>
+        </div>
+        <div class="map-image">
+          <img src="map-footer.png" alt="World Map with locations">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="copyright-bar">
+    <p class="copyright">
+       
+            Copyright &copy; 2025 All rights reserved.
+   
+    </p>
+  </div>
+</footer>
+</body>
+</html>
